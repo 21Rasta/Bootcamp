@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day3</title>
+    <style media="screen">
+      table,
+      caption,
+      tr,
+      th,
+      td {
+        border: 2px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        This is survey <a href="DAY3-2.html"> form</a> 
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>9977885544</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Rock</td>
+        <td>8899476145</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Mujeeb</td>
+        <td>8899568145</td>
+        <td>Dubai</td>
+      </tr>
+      <tr>
+        <td>Junaid</td>
+        <td>8856776145</td>
+        <td>India</td>
+      </tr>
+    </table>
+
+    <h2>Interests Survey Form</h2>
+    <form class="" action="ind.html" method="post">
+      Enter your name: <input type="text" /> <br />
+      Enter your department: <input type="text" /> <br />
+      Tell us a little about yourself: <input type="paragraph block" /> <br />
+      Do you exercise at home? <label type="text"></label> Yes:
+      <input type="radio" name="option" value="Yes" /> No:
+      <input type="radio" name="option" value="No" /> <br />
+      How do you like to read about your favorite topics?
+      <input type="checkbox" id="Books" name="Books" value="Books" />
+      <label for="Book">Books</label>
+      <input
+        type="checkbox"
+        id="Online resources"
+        name="Online resources"
+        value="Online resources"
+      />
+      <label for="Online resources">Online resources</label>
+      <input
+        type="checkbox"
+        id="Phone apps"
+        name="Phone apps"
+        value="Phone apps"
+      />
+      <label for="Phone apps">Phone apps</label>
+      <input
+        type="checkbox"
+        id="Magazines"
+        name="Magazines"
+        value="Magazines"
+      />
+      <label for="Magazines">Magazines</label>
+      <br />
+      <div class="form group"> <p id="quest" >
+        What genres of music do you like? </p>
+      <select name="movies">
+        <option value=" Comedy">Comedy</option>
+        <option value=" Horror">Horror</option>
+        <option value=" Action">Action</option>
+        <option value=" Drama">Drama</option>
+        <option value=" Romance">Romance</option>
+      </select>
+      <br />
+
+      <button>Submit Form</button>
+    </form>
+  </body>
+</html>
